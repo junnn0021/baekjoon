@@ -16,7 +16,7 @@
 
 const input = require('fs').readFileSync('/dev/stdin').toString().split(' ').map((value) => +value);
 
-const [A, B, C] = input.sort((a, b) => b -a);
+const [A, B, C] = input.sort((a, b) => b - a);
 
 if (A !== B && A !== C && B !== C) {
     console.log(A * 100);
