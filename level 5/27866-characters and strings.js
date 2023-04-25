@@ -9,7 +9,7 @@
 // 출력
 //  S의 i번째 글자를 출력한다.
 
-const input = require('fs').readFileSync('dev/stdin').toString().trim().split('\n');
+const input = require('fs').readFileSync('/dev/stdin').toString().trim().split('\n');
 
 let voca = input[0].toString();
 let num = Number(input[1]);
